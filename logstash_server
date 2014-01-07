@@ -18,7 +18,7 @@ sysctl -p
 /etc/init.d/redis-server restart
 
 # Install and configure elasticsearch
-wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.1.deb -O /tmp/elasticsearch.deb
+wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.9.deb -O /tmp/elasticsearch.deb
 dpkg -i /tmp/elasticsearch.deb
 rm /tmp/elasticsearch.deb
 
